@@ -18,10 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BookActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<List<Books>> {
-    /**
-     * Constant value for the Book loader ID. We can choose any integer.
-     * This really only comes into play if you're using multiple loaders.
-     */
+    
     private static final int BOOK_LOADER_ID = 1;
 
     /** Adapter for the list of Books */
